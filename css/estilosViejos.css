@@ -1,0 +1,334 @@
+/* MENU CON SUB MENU */
+
+/*.HEADER */
+#NavColor{
+	background-color: #0c9463;
+}
+
+
+.imagenIcono{
+	width: 80px;
+	height:80px;
+	margin-left:10px;
+	margin-right:600px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+/*.CARROUSEL */
+
+.cajaSection {  
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: start;
+height: auto;
+margin: 0px;
+
+}
+
+
+.imagen {
+	height: 400px;
+	background-color: #EEF5F2;
+	
+}
+
+/*.DESCRIPCION SECCION */
+#homeDescription h1 {
+	font-family: roboto;
+	color: black;
+	margin: 20px;
+	font-size: 35px;
+}
+
+
+.homeParrafo {
+	font-family: roboto;
+	margin: 40px;
+	font-size: 20px;
+}
+
+.imagenServicios {
+	width: 150px;
+	height: 150px;
+	
+}
+
+
+h1{
+	height: 50px;
+  
+}
+
+
+
+.tituloSeccion {
+	margin: 0px;
+
+}
+
+.servicios {
+	height: 60px;
+	align-items: center;
+	font-family: roboto;
+	font-size: 20px;
+	background-color: #dddddd;
+	padding: 10px;
+}
+
+/*.GRILLAS */
+
+#grilla {
+	display: grid;
+	grid-template-areas:
+     "img1 img2 "
+     "h11 h12"
+     "p1 p2";
+	grid-template-rows: auto 100px 100px; 
+	grid-template-columns: 600px 600px;
+	grid-row-gap: 20px;
+	grid-column-gap:20px;
+	justify-items: center;
+	width: 1500px;
+	height: 400px;
+	justify-content: center;
+	align-content: center;
+	font-family: roboto;
+	font-size: 20px;
+
+
+}
+
+#imagen1 {
+	grid-area: img1;
+}
+#imagen2 {
+	grid-area: img2;
+}
+#titulo1 {
+	grid-area: h11;
+}
+#titulo2 {
+	grid-area: h12;
+}
+#descripcion1 {
+	grid-area: p1;
+}
+#descripcion2 {
+	grid-area: p2;
+}
+
+
+#imagen1{
+	align-self: center;
+}
+
+#grillaNosotros {
+	display: grid;
+	grid-template-areas:
+     "imgV imgP imgS "
+     "h13 h14 h15"
+     "p3 p4 p5";
+	grid-template-rows: 100px 100px 100px; 
+	grid-template-columns: 400px 400px 400px;
+	grid-row-gap: 20px;
+	grid-column-gap:20px;
+	justify-items: center;
+	width: auto;
+	height:450px;
+	justify-content: center;
+	align-content: center;
+	font-family: roboto;
+	font-size: 20px;
+
+
+}
+
+#imagenVision {
+	grid-area: imgV;
+}
+#imagenPasion {
+	grid-area: imgP;
+}
+#imagenSoporte {
+	grid-area: imgS;
+}
+#tituloVision {
+	grid-area: h13;
+}
+#tituloPasion {
+	grid-area: h14;
+}
+#tituloSoporte {
+	grid-area: h15;
+}
+#descripcionVision {
+	grid-area: p3;
+}
+#descripcionPasion {
+	grid-area: p4;
+}
+#descripcionSoporte {
+	grid-area: p5;
+}
+
+.imagenNosotros {
+	width: 120px;
+	height: 120px;
+	
+}
+
+#imagen1{
+	align-self: center;
+}
+
+
+.formlabel{
+	font-family: roboto;
+	font-size: 10px;
+}
+
+
+#grillaContacto {
+	display: grid;
+	grid-template-areas:
+     "p1 espacio form";
+     grid-template-rows: auto 40px;
+	grid-template-columns: 600px 300px 600px;
+	grid-column-gap:20px;
+	grid-row-gap: 1px;
+	justify-items: left;
+	width: auto;
+	height:auto;
+	justify-content: left;
+	align-content: left;
+	font-family: roboto;
+	font-size: 20px;
+	margin: 0px;
+}
+#espacio {
+	grid-area: espacio;
+}
+#textoContacto {
+	grid-area: p1;
+	padding: 10px;
+}
+#form {
+	grid-area: form;
+	padding: 12px;
+}
+
+#grillaProyectos{
+	display: grid;
+	grid-template-areas:
+     "img1 img2 img3 "
+     "h13 h14 h15"
+     "p3 p4 p5";
+	grid-template-rows: 100px 100px 100px; 
+	grid-template-columns: 400px 400px 400px;
+	grid-row-gap: 20px;
+	grid-column-gap:20px;
+	justify-items: center;
+	width: auto;
+	height:450px;
+	justify-content: center;
+	align-content: center;
+	font-family: roboto;
+	font-size: 20px;
+	}
+
+#proyecto1{
+	grid-area: img1;
+}
+#proyecto2{
+	grid-area: img2;
+}
+
+#proyecto3{
+	grid-area: img3;
+}
+
+#tituloP1{
+	grid-area: h13:;
+}
+
+#tituloP2{
+	grid-area: h14;
+}
+#tituloP3{
+	grid-area: h15;
+}
+#descripcionP1{
+	grid-area: p3;
+}
+#descripcionP2{
+	grid-area: p4;
+}
+#descripcionP3{
+	grid-area: p5;
+}
+
+.imagenProyecto{
+	width: 140px;
+	height: 140px;
+}
+
+
+
+/*.FOOTER */
+
+footer { 
+	width: auto;
+	height: 70px;
+	display: block;
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 10px;
+	background-color: #0c9463;
+	
+ }
+
+.imagenFooter{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	
+}
+
+@media only screen and (max-width:320px){
+	body {
+        background-color: #f5f9ff;
+    }
+    .cajaSection {  
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+		height: auto;
+		margin: 2px;
+	}
+
+	footer { 
+	width: auto;
+	height: 40px;
+	display: block;
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 10px;
+	background-color: #0c9463;
+ }
+ .imagenFooter{
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+	
+}
+#homeDescription h1 {
+	font-family: roboto;
+	color: black;
+	margin: 10px;
+	font-size: 20px;
+}
+}
