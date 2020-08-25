@@ -1,0 +1,77 @@
+/*.DESCRIPCION SECCION */
+
+
+#grad {
+ background-image: linear-gradient(to left, red , yellow);
+}
+
+#homeDescription h1 {
+	font-family: roboto;
+	color: black;
+	margin: 20px;
+	font-size: 35px;
+}
+
+
+.homeParrafo {
+	font-family: roboto;
+	margin: 40px;
+	font-size: 20px;
+	height: 100px;
+	transition: height 2s;
+
+}
+
+.homeParrafo:hover{
+	 height: 200px;
+
+}
+
+.imagenServicios {
+	width: 150px;
+	height: 150px;
+	
+}
+
+
+h1{
+	height: 50px;
+  
+}
+
+
+
+.tituloSeccion {
+	margin: 0px;
+
+}
+
+.servicios {
+	height: 60px;
+	align-items: center;
+	font-family: roboto;
+	font-color: #797a7e;
+	font-size: 20px;
+	background-image: linear-gradient(to right, #eeeeee,#d8d3cd);
+	padding: 10px;
+}
+
+.imagenEfecto {
+	animation-name: efecoHome;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-duration: 20s;
+	animation-delay: 0s;
+	
+	
+}
+
+@keyframes efectoHome {
+   0%{ width: 100px; }
+   25%{ width: 300px; }
+   50%{ width: 200px;
+     background-color: red; }
+   75%{ width: 300px;}
+   100%{ width: 100px;
+     background-color:green;}
+}
